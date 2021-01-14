@@ -7,7 +7,7 @@ class UserController extends Controller {
         super(req, res);
     }
     
-    async signup() {
+    signup() {
 		this.page_params.PAGE.title = "Sign Up";
         this.page_params.PAGE.view = "signup";
 
