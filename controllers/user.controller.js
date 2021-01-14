@@ -1,4 +1,3 @@
-const Constants         = require("../config/constants");
 const Controller        = require('./controller');
 
 class UserController extends Controller {
